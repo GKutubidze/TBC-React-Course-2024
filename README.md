@@ -2,7 +2,7 @@
 
 
 ## Project Structure
-.
+ .
 ├── css
 │   └── styles.css
 ├── fonts
@@ -67,4 +67,4 @@
     git clone https://github.com/GKutubidze/TBC-React-Course-2024
     ```
 
-    Alternatively, you can download a ZIP of all the files directly [here](https://github.com/GKutubidze/TBC-React-Course-2024/archive/main.zip).
+2.  Alternatively, you can download a ZIP of all the files directly [here](https://github.com/GKutubidze/TBC-React-Course-2024/archive/main.zip).
