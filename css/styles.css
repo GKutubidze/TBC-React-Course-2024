@@ -1,22 +1,22 @@
 /* Font Definitions */
 @font-face {
   font-family: "TBC-Sailec-Bold";
-  src: url("/fonts/TBC_Sailec_Bold.woff2") format("woff2");
+  src: url("../fonts/TBC_Sailec_Bold.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "TBC-X-Black";
-  src: url("/fonts/TBC_X_Black.woff2") format("woff2");
+  src: url("../fonts/TBC_X_Black.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "TBC-X-Medium";
-  src: url("/fonts/TBC_X_Medium.woff2") format("woff2");
+  src: url("../fonts/TBC_X_Medium.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "TBC-X-Regular";
-  src: url("/fonts/TBC_X_Regular.woff2") format("woff2");
+  src: url("../fonts/TBC_X_Regular.woff2") format("woff2");
 }
 
 /* End Font Definitions */
