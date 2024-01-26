@@ -68,8 +68,6 @@
 4. **Git:**
    - *Why:* Git is a version control system that helps track changes in your codebase. It allows collaboration among developers and helps manage code versions. In this project, Git is used to track changes, collaborate with others, and maintain a version history of the codebase.
 
-5. **GitHub:**
-   - *Why:* GitHub is a web-based platform that hosts Git repositories. It provides features like collaboration, issue tracking, and pull requests. In the TBC React Course project, GitHub is used as a remote repository to store and manage the project's code, making it accessible and manageable for collaboration.
 
 
 
