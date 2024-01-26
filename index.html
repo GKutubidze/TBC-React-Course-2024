@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+
+    <title>TBC x USAID</title>
+  </head>
+  <body>
+    <!-- Mobile navigation bar -->
+
+    <div class="mobile-navbar" id="mobileNavbar">
+      <span class="close-btn" onclick="closeMobileNavbar()">
+        <img src="images/svg/close-x.svg" alt="" />
+      </span>
+
+      <ul>
+        <li>მთავარი</li>
+        <li>TBC IT</li>
+        <li class="tbc-x-usaid">TBC x USAID</li>
+        <li>რისკები</li>
+      </ul>
+    </div>
+
+    <!-- Header section -->
+
+    <header id="header">
+      <div class="tbclogo">
+        <img src="images/svg/tbclogo.svg" alt="TBC Logo" />
+      </div>
+      <div class="menu" onclick="openMobileNavbar()">
+        <div class="menu-first"></div>
+        <div class="menu-second"></div>
+        <div class="menu-third"></div>
+      </div>
+
+      <!-- Desktop menu -->
+
+      <div class="desktop-menu">
+        <ul>
+          <a href="https://www.tbcacademy.ge/"><li>მთავარი</li></a>
+          <a href="https://www.tbcacademy.ge/it-academy"> <li>TBC IT</li></a>
+          <a href="/"><li class="tbc-x-usaid">TBC x USAID</li></a>
+          <a href="https://www.tbcacademy.ge/risks-academy"><li>რისკები</li></a>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Main content section -->
+
+    <main>
+      <section class="image-section">
+        <div class="body-image">
+          <img
+            src="images/bodyimage-mobile.webp"
+            class="mobile-image"
+            alt="Mobile Body Image"
+          />
+          <img
+            src="images/bodyimage-desktop.webp"
+            class="desktop-image"
+            alt="Desktop Body Image"
+          />
+          <div class="image-text-overlay">
+            <p class="tbc-usaid">TBC x USAID</p>
+            <p class="tech">ტექნოლოგური განათლებისთვის</p>
+          </div>
+        </div>
+        <div class="content-wrapper">
+          <span class="program-description"
+            >„ TBC x USAID - ტექნოლოგიური განათლებისთვის “ პროგრამა&nbsp;
+            საინფორმაციო ტექნოლოგიებით დაინტერესებულ ადამიანებს გთავაზობთ სრულად
+            დაფინანსებულ ონლაინ საგანმანათლებლო პრაქტიკულ კურსებს&nbsp;
+            სხვადასხვა ICT მიმართულებით. წარმატებულ კურსდამთავრებულებს ეძლევათ
+            შესაძლებლობა დასაქმდნენ თიბისისა და მის პარტნიორ კომპანიებში.</span
+          >
+          <span class="learn-more-link">გაიგე მეტი</span>
+        </div>
+
+        <!-- Slider section with project partners -->
+      </section>
+      <section class="learning-program">
+        <span class="learning-title">სასწავლო კურსები</span>
+        <div class="learning-courses">
+          <div class="course-card">
+            <img src="images/courses/ios.webp" alt="iOS Development Course" />
+            <div class="course-details">
+              <span class="course-title">iOS Development</span>
+              <span class="registration-status">რეგისტრაცია დასრულებულია</span>
+              <span class="course-details-link">
+                <img src="images/svg/arrow.svg" alt="Arrow Icon" />
+                კურსის დეტალები</span
+              >
+            </div>
+          </div>
+
+          <div class="course-card">
+            <img src="images/courses/react.webp" alt="React Course" />
+            <div class="course-details">
+              <span class="course-title">React</span>
+              <span class="registration-status">რეგისტრაცია დასრულებულია</span>
+              <span class="course-details-link">
+                <img src="images/svg/arrow.svg" alt="Arrow Icon" />
+                კურსის დეტალები</span
+              >
+            </div>
+          </div>
+
+          <div class="course-card">
+            <img src="images/courses/pyton.webp" alt="Intro to Python Course" />
+            <div class="course-details">
+              <span class="course-title"> Intro to Python</span>
+              <span class="registration-status">რეგისტრაცია დასრულებულია</span>
+              <span class="course-details-link">
+                <img src="images/svg/arrow.svg" alt="Arrow Icon" />
+                კურსის დეტალები</span
+              >
+            </div>
+          </div>
+
+          <div class="course-card">
+            <img
+              src="images/courses/pyton-advanced.webp"
+              alt="Advanced Python Course"
+            />
+            <div class="course-details">
+              <span class="course-title">Advanced Python </span>
+              <span class="registration-status">რეგისტრაცია დასრულებულია</span>
+              <span class="course-details-link">
+                <img src="images/svg/arrow.svg" alt="Arrow Icon" />
+                კურსის დეტალები</span
+              >
+            </div>
+          </div>
+
+          <div class="course-card">
+            <img
+              src="images/courses/Cybersecurity.webp"
+              alt="Advanced Cybersecurity Course"
+            />
+            <div class="course-details">
+              <span class="course-title">Advanced Cybersecurity Course</span>
+              <span class="registration-status">რეგისტრაცია დასრულებულია</span>
+              <span class="course-details-link">
+                <img src="images/svg/arrow.svg" alt="Arrow Icon" />
+                კურსის დეტალები</span
+              >
+            </div>
+          </div>
+
+          <div class="course-card">
+            <img
+              src="images/courses/tot.webp"
+              alt="Training of Trainers (ToT) Course"
+            />
+            <div class="course-details">
+              <span class="course-title"> ToT - Training of Trainers</span>
+              <span class="registration-status">რეგისტრაცია დასრულებულია</span>
+              <span class="course-details-link">
+                <img src="images/svg/arrow.svg" alt="Arrow Icon" />
+                კურსის დეტალები</span
+              >
+            </div>
+          </div>
+
+          <div class="course-card">
+            <img src="images/courses/blockchain.webp" alt="Blockchain Course" />
+            <div class="course-details">
+              <span class="course-title"> Blockchain</span>
+              <span class="registration-status">რეგისტრაცია დასრულებულია</span>
+              <span class="course-details-link">
+                <img src="images/svg/arrow.svg" alt="Arrow Icon" />
+                კურსის დეტალები</span
+              >
+            </div>
+          </div>
+
+          <div class="course-card">
+            <img src="images/courses/devops.webp" alt="DevOps Course" />
+            <div class="course-details">
+              <span class="course-title"> DevOps</span>
+              <span class="registration-status">რეგისტრაცია დასრულებულია</span>
+              <span class="course-details-link">
+                <img src="images/svg/arrow.svg" alt="Arrow Icon" />
+                კურსის დეტალები</span
+              >
+            </div>
+          </div>
+
+          <div class="course-card">
+            <img
+              src="images/courses/Security.webp"
+              alt="Information Security Governance Course"
+            />
+            <div class="course-details">
+              <span class="course-title"> Information Security Governance</span>
+              <span class="registration-status">რეგისტრაცია დასრულებულია</span>
+              <span class="course-details-link">
+                <img src="images/svg/arrow.svg" alt="Arrow Icon" />
+                კურსის დეტალები</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div id="slider-container">
+          <h2>პროექტის პარტნიორები</h2>
+          <div class="slider-content">
+            <div class="arrow left" onclick="prevSlide()">
+              <img src="images/svg/scroll-arrow-left.svg" alt="arrow" />
+            </div>
+            <div id="slider">
+              <div class="slide">
+                <img src="images/partners/usaid.webp" alt="usaid" />
+                <img src="images/partners/spaceint.webp" alt="spaceint" />
+                <img src="images/partners/tineti.webp" alt="tineit" />
+              </div>
+              <div class="slide">
+                <img src="images/partners/tegeta.webp" alt="tegeta" />
+                <img src="images/partners/spectre.webp" alt="spaceint" />
+                <img src="images/partners/tbc.webp" alt="tbc" />
+              </div>
+              <div class="slide">
+                <img src="images/partners/ufc.webp" alt="ufc" />
+              </div>
+            </div>
+            <div class="arrow right" onclick="nextSlide()">
+              <img src="images/svg/scroll-arrow-right.svg" alt="arrow" />
+            </div>
+          </div>
+          <!-- Dots for Mobile -->
+          <div class="dots">
+            <div class="dot" onclick="goToSlide(0)"></div>
+            <div class="dot" onclick="goToSlide(1)"></div>
+            <div class="dot" onclick="goToSlide(2)"></div>
+          </div>
+        </div>
+      </section>
+
+
+        <!-- Dropdown section with frequently asked questions -->
+
+      <section>
+        <div id="dropdown">
+          <div class="dropdown-header">
+            <span>ხშირად დასმული კითხვები</span>
+            <div id="all-question-desktop">
+              <h2 class="all-question">ყველა კითხვა</h2>
+            </div>
+          </div>
+              <!-- Dropdown content with individual FAQ items -->
+
+          <div
+            class="dropdown-content"
+            onclick="toggleContent('course-Registration-Content')"
+          >
+            <div class="course-header">
+              <span>როგორ ხდება კურსებზე რეგისტრაცია და შერჩევა?</span>
+              <img
+                src="images/svg/arrow-down.svg"
+                alt="arrow"
+                class="dropdown-arrow"
+              />
+            </div>
+            <div id="course-Registration-Content" class="content">
+              <span>კურსზე რეგისტრაციისთვის უნდა გაიარო რამდენიმე ეტაპი: </span>
+              <p>
+                I ეტაპი - პირველ ეტაპზე საჭიროა, შეავსო სასურველი კურსისთვის
+                განკუთვნილი სარეგისტრაციო ფორმა, რომელიც განთავსებულია კურსის
+                შიდა გვერდზე. კურსზე რეგისტრაციის დასრულების შემდეგ დაიწყება
+                შემოსული განცხადებების გადარჩევა.
+              </p>
+              <p>
+                II ეტაპი - შერჩევის მეორე ეტაპი კურსების მიხედვით
+                განსხვავებულია, ზოგიერთი კურსისთვის მოიცავს პრე-ტესტს, ზოგიერთ
+                კურსზე კი უნარების ტესტს, სადაც მინიმალური ზღვარის გადალახვის
+                შემთხვევაში გადახვალ შერჩევის შემდეგ ეტაპზე.
+              </p>
+              <p>
+                III ეტაპი - მესამე ეტაპი კურსების მიხედვით განსხვავდება: Advance
+                კურსებზე, სადაც მოითხოვება გარკვეული ტექნიკური ცოდნა,
+                მონაწილეებმა უნდა დაწერონ ტექნიკური ტესტი ცოდნის დონის
+                შესამოწმებლად, ხოლო კურსებზე, სადაც რაიმე ტიპის წინასწარი ცოდნა
+                მოთხოვნილი არ არის უნდა შეასრულოთ ტექნიკური დავალება, რაც თქვენი
+                კვლევისა და თვითსწავლის უნარს ამოწმებს.
+              </p>
+              <p class="final-Stage-Description">
+                IV ეტაპი - შერჩევის ბოლო მეოთხე ეტაპი მოიცავს გასაუბრებას
+                შესარჩევ კომისიასთან. გასაუბრების წარმატებით გავლის შემთხვევაში
+                ჩაირიცხებით კურსზე და გაფორმდება შესაბამისი ხელშეკრულება.
+              </p>
+              <span
+                >* სანამ კურსზე დარეგისტრირდები მნიშვნელოვანია, ყურადღებით
+                წაიკითხო კურსის აღწერა, ნახო რას ისწავლი კურსის განმავლობაში და
+                გაიგო გააჩნია თუ არა კურსს დასწრების წინაპირობა.
+              </span>
+            </div>
+          </div>
+
+          <div
+            class="dropdown-content"
+            onclick="toggleContent('registration-content')"
+          >
+            <div class="course-header">
+              <span>შემიძლია თუ არა ერთზე მეტ კურსზე რეგისტრაცია?</span>
+              <img
+                src="images/svg/arrow-down.svg"
+                alt="arrow"
+                class="dropdown-arrow"
+              />
+            </div>
+            <div id="registration-content" class="content">
+              TBC X USAID ტექნოლოგიური განათლებისთვის პროგრამაში თითოეულ
+              კანდიდატს აქვს მხოლოდ ერთი კურსის გავლის შესაძლებლობა. გარდა
+              Information Security და Python კურსებისა, სადაც Basic დონის გავლის
+              შემდეგ შესაძლებელია სწავლის გაგრძელება Advance დონეზე.
+            </div>
+          </div>
+
+          <div
+            class="dropdown-content"
+            onclick="toggleContent('price-content')"
+          >
+            <div class="course-header">
+              <span>რა ღირს სწავლა პროგრამის ფარგლებში?</span>
+              <img
+                src="images/svg/arrow-down.svg"
+                alt="arrow"
+                class="dropdown-arrow"
+              />
+            </div>
+            <div id="price-content" class="content">
+              პროგრამის ფარგლებში კურსებზე სწავლა სრულიად დაფინანსებულია თიბისი
+              ბანკისა და USAID-ის მიერ.
+            </div>
+          </div>
+          <div id="all-question">
+            <h2 class="all-question">ყველა კითხვა</h2>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+
+    <footer id="footer">
+      <div class="contactSection">
+        <div class="contactInfo">
+          <img src="images/tbc.webp" alt="TBC Logo" />
+          <button class="contact-info-button">მოგვწერეთ</button>
+        </div>
+
+        <div class="socialIcons">
+          <div class="socialIconsContainer">
+            <a href="https://www.facebook.com/tbcbank/"><img src="images/fb.webp" alt="Facebook Icon" /></a>
+            <a href="https://www.youtube.com/channel/UCGk9R2LV2ywOL80r8Xc6xtQ"> <img src="images/youtube.webp" alt="YouTube Icon" /></a>
+           
+          </div>
+        </div>
+      </div>
+
+      <div class="legalTerms">
+        <p onclick="openTermsPopup()" class="terms-link">წესები და პირობები</p>
+        <p class="copyright">&copy; 2023 ყველა უფლება დაცულია</p>
+      </div>
+    </footer>
+
+    <footer id="desktopFooter">
+      <div class="footer-logo-social">
+        <img class="footer-logo" src="images/tbc.webp" alt="TBC Logo" />
+        <div id="socialIconsContainer">
+          <a href="https://www.facebook.com/tbcbank/"><img src="images/fb.webp" alt="Facebook Icon" /></a>
+          <a href="https://www.youtube.com/channel/UCGk9R2LV2ywOL80r8Xc6xtQ"> <img src="images/youtube.webp" alt="YouTube Icon" /></a>
+        </div>
+      </div>
+
+      <div class="footer-terms-contact">
+        <div class="legalTerms">
+          <p class="copyright">&copy; 2023 ყველა უფლება დაცულია</p>
+
+          <p onclick="openTermsPopup()" class="terms-link">
+            წესები და პირობები
+          </p>
+        </div>
+        <a href="mailto:itacademy@tbcbank.com.ge"> <button class="contact-button">მოგვწერეთ</button></a>
+       
+      </div>
+    </footer>
+
+
+    <!--  Terms and conditions popup  section -->
+
+    <div class="terms-popup" id="termsPopup">
+      <span class="close-btn" onclick="closeTermsPopup()">
+        <img src="images/svg/close-x.svg" alt="Close Icon" />
+      </span>
+      <!-- Add your terms and conditions content here -->
+      <div>
+        <div class="regulation-section">
+          <h1>წესები და პირობები</h1>
+          <p class="section-paragraph">
+            წინამდებარე ვებ-გვერდის გამოყენება რეგულირდება სს „თიბისი ბანკის“
+            (საიდენტიფიკაციო ნომერი: 204854595, მისამართი: თბილისი, კ.
+            მარჯანიშვილის ქ. #7) მიერ დადგენილი წესებითა და პირობებით.
+          </p>
+
+          <p class="section-paragraph">
+            ტერმინები „ბანკი“, „ჩვენ“ გულისხმობს სს „თიბისი ბანკს“ (ასევე მისი
+            ჯგუფის წევრ მონათესავე, შვილობილ, აფილირებულ კომპანიებს), ხოლო
+            ტერმინი „თქვენ“, „მომხმარებელი“ გულისხმობს ინდივიდს, კომპანიას,
+            ორგანიზაციულ წარმონაქმნს, რომელიც იყენებს ბანკის წინამდებარე
+            ვებ-გვერდს.
+          </p>
+
+          <p class="section-paragraph">
+            გთხოვთ, ყურადღებით გაეცნოთ წინამდებარე წესებსა და პირობებს, რომელიც
+            არეგულირებს თქვენ მიერ ვებ-გვერდის გამოყენების პირობებს. იმ
+            შემთხვევაში, თუ არ ეთანხმებით წინამდებარე წესებსა და პირობებს,
+            გთხოვთ, დატოვოთ ბანკის ვებ-გვერდი.
+          </p>
+
+          <p class="section-paragraph">
+            ვებ-გვერდზე სტუმრობით, ან მასზე გამოქვეყნებული ინფორმაციის
+            გამოყენებით, ადასტურებთ და სრულად ეთანხმებით მითითებულ ყველა
+            დანაწესს, რომელიც შესაძლოა ცალმხრივად შეიცვალოს სს „თიბისი ბანკის“
+            მიერ გარკვეული პერიოდულობით, რაც დაფიქსირდება მოცემულ ვებ-გვერდზე და
+            მასზე თქვენი სტუმრობა ნიშნავს შესაბამის პირობებზე დათანხმებას.
+          </p>
+
+          <p class="section-paragraph">
+            ბანკის ვებ-გვერდზე მითითებული ინფორმაცია, უმეტეს შემთხვევაში,
+            განკუთვნილია იმ პირებისთვის, რომლებიც დაინტერესებულნი არიან
+            საქართველოს ფინანსურ ბაზარზე მომსახურების მიღებით. შესაძლოა,
+            ვებ-გვერდზე მითითებული ინფორმაცია არ იყოს ხელმისაწვდომი მსოფლიოს
+            ყველა გეოგრაფიულ არეალში, ბანკის გადაწყვეტილების შესაბამისად.
+          </p>
+
+          <p class="section-paragraph">
+            ბანკის ვებ-გვერდზე მითითებული გარკვეული ინფორმაციის გასაანალიზებლად,
+            შესაძლოა დაგჭირდეთ შესაბამისი სფეროს სპეციალისტის კონსულტაცია
+          </p>
+
+          <p class="section-paragraph">
+            ბანკის ვებ-გვერდზე მითითებული კონკრეტული პროდუქტები/მომსახურება
+            რეგულირდება სპეციალური საბანკო მომსახურების ხელშეკრულებით.
+          </p>
+        </div>
+        <div class="regulation-section">
+          <h3 class="section-title">ინფორმაციის სიზუსტე</h3>
+          <p class="section-paragraph">
+            ბანკი არ არის პასუხისმგებელი ვებ-გვერდზე მითითებული ინფორმაციის
+            შინაარსის სიზუსტეზე, მიუხედავად ჩვენი დიდი ძალისხმევისა მოგაწოდოთ
+            უტყუარი ინფორმაცია. აღნიშნული არ წარმოადგენს დადასტურებას და
+            გარანტიას, რომ ვებ-გვერდზე მითითებული ინფორმაცია არის ზუსტი, უტყუარი
+            და შესაფერისი მისი ნებისმიერი გამოყენებისთვის. ბანკის ვებ-გვერდზე
+            არსებული ნებისმიერი ინფორმაცია მითითებულია „როგორც არის“ (“As Is”)
+            საწყისზე. შესაბამისად, ვებ-გვერდზე არსებული ნებისმიერი ინფორმაციის
+            გამოყენება სრულად წარმოადგენს მომხმარებლის პირად რისკს და ბანკი არ
+            არის პასუხისმგებელი ვებ-გვერდზე გამოქვეყნებული ინფორმაციის
+            გამოყენებით დამდგარ ზიანზე. წინამდებარე დათქმა არ ეხება სს თიბისი
+            ბანკის ვებ-გვერდზე www.tbcbank.ge განთავსებული ხელშეკრულების
+            შემადგენელ ნაწილებს.
+          </p>
+
+          <p class="section-paragraph">
+            ვებ-გვერდზე არსებული ინფორმაცია არ წარმოადგენს დაპირებას
+            მომსახურებაზე/პროდუქტზე ან რაიმე სახის სახელშეკრულებო ურთიერთობით
+            ბანკის შებოჭვის საფუძველს.
+          </p>
+        </div>
+        <div class="regulation-section">
+          <h3 class="section-title">პასუხისმგებლობის შეზღუდვა</h3>
+          <p class="section-paragraph">
+            ბანკი და მისი შესაბამისი თანამშრომლები არ არიან პასუხისმგებელნი
+            დამდგარი შედეგისათვის, რომელიც მოიცავს პირდაპირ, არაპირდაპირ,
+            სპეციალურ, შემთხვევით, მიზეზ-შედეგობრივ, არასახელშეკრულებო ზიანს,
+            რაც გამოწვეულია ვებ-გვერდზე მითითებული ინფორმაციის გამოყენებით.
+          </p>
+
+          <p class="section-paragraph">
+            ბანკი არ აგებს პასუხს ვებ-გვერდის გამოყენებით გამოწვეულ რაიმე სახის
+            ზიანზე, დანაკარგზე, თუნდაც ტექნიკური შეფერხების, დეფექტის, ოპერაციის
+            გაუქმება/შეჩერების, კომპიუტერული ვირუსის, ან სისტემის გაუმართაობის
+            შემთხვევაში.
+          </p>
+
+          <p class="section-paragraph">
+            ვებ-გვერდზე წარმოდგენილი შინაარსის ხელმისაწვდომობა შესაძლოა
+            დამოკიდებული იყოს საძიებო სისტემის ფუნქციებსა და შეზღუდვებზე. ბანკი
+            არ იღებს პასუხისმგებლობას იმ შემთხვევებზე, თუ ვებ-გვერდის
+            შემადგენელი გარკვეული კომპონენტები ხელმიუწვდომელია თქვენთვის.
+          </p>
+        </div>
+
+        <div class="regulation-section">
+          <h3 class="section-title">ვებ-გვერდის გამოყენება</h3>
+          <p class="section-paragraph">
+            ვებ-გვერდზე მითითებული ინფორმაცია განკუთვნილია მხოლოდ მომხმარებლების
+            პირადი გამოყენებისთვის. თქვენ ვალდებული ხართ, ვებ-გვერდზე
+            განთავსებული ინფორმაცია, ასევე ვებ-გვერდის სტრუქტურა, გამოსახულება
+            და დიაზინი არ გაავრცელოთ, არ გადასცეთ, არ მოახდინოთ მისი ასლების
+            დამზადება ან/და რეპროდუცირება (მათ შორის სოციალურ მედიაში)
+            კომერციული მიზნებისთვის, ბანკის წინასწარი წერილობითი თანხმობის
+            გარეშე, რაც ჩვენს ერთპიროვნულ დისკრეციას წარმოადგენს. ბანკის
+            წინასწარი წერილობითი თანხმობა არ არის საჭირო, თუ ვებ-გვერდზე
+            მითითებული ინფორმაციის/შინაარსის გამოყენება ხდება ბანკის წინასწარ
+            განცხადებული თანხმობის შესაბამისად, ან ასეთი ინფორმაცია გამოიყენება
+            პირადი მოხმარებისთვის, საგანმანათლებლო ან ინფორმაციული მიზნებისთვის.
+          </p>
+
+          <p class="section-paragraph">
+            ვებ-გვერდისა და სისტემის არაავტორიზებული გამოყენება (მათ შორის
+            არარსებული დასახელებით და კოდით) სასტიკად აკრძალულია. იქ, სადაც
+            მოითხოვება რეგისტრაცია და პაროლის გამოყენება, თქვენ ვალდებული ხართ,
+            კონფიდენციალურად შეინახოთ და არ დაუშვათ მესამე პირის მიერ
+            ვებ-გვერდზე წვდომის შესაძლებლობა თქვენ მაგივრად. რეგისტრაციისა და
+            პაროლის გამოყენების დროს, თქვენ აცნობიერებთ და ეთანხმებით, რომ
+            ბანკმა შესაძლოა მოახდინოს რეგისტრაციისა და პაროლის დეაქტივაცია და
+            აღნიშნული ქმედებით შეზღუდოს ვებ-გვერდზე წვდომა იმ შემთხვევაში, თუ
+            თქვენი მხრიდან ადგილი აქვს წესებისა და პირობების დარღვევას.
+          </p>
+
+          <p class="section-paragraph">
+            შესაძლებელია, რომ ვებ-გვერდის რომელიმე კონკრეტული გვერდი შეიცავდეს
+            წინამდებარე წესებისაგან და პირობებისაგან განსხვავებულ დანაწესებს.
+            მათ შორის კოლიზიის არსებობის შემთხვევაში, უპირატესობა ენიჭება
+            წინამდებარე დანაწესებს.
+          </p>
+
+          <p class="section-paragraph">
+            ბანკის ვებ-გვერდის (მათ შორის ფორუმების) გამოყენებისას, აკრძალული
+            გაქვთ უკანონო/თაღლითური ქმედება, ცილისმწამებლური, სიძულვილის ენით
+            საუბარი, ან სხვა არასასურველი ინფორმაციის განთავსება,
+            გავრცელება/ტრანსმისია, რაც შესაძლოა არღვევდეს მოქმედ კანონმდებლობას
+            და რეგულაციას, ან ზიანს აყენებდეს ბანკის საქმიან რეპუტაციას. ასევე
+            გეკრძალებათ ვებ-გვერდისთვის ზიანის მიყენება ნებისმიერი სახის მავნე
+            პროგრამის მეშვეობით („ტროას ცხენი,“ „ლოგიკური ბომბი“ ან სხვა მსგავსი
+            ქმედებების განხორციელება).
+          </p>
+
+          <p class="section-paragraph">
+            თქვენს ერთპიროვნულ რისკს წარმოადგენს ვებ-გვერდზე მოსახვედრად
+            გამოყენებული ნებისმიერი პროგრამული მოდულის (სატელეფონო, კომპიუტერული
+            და სხვა) გაუმართაობა.
+          </p>
+
+          <p class="section-paragraph">
+            იმ შემთხვევაში, თუ ვებ-გვერდზე წვდომა შეუძლებელი გახდება ბანკის
+            ტექნიკური შეფერხების, ან ბანკისაგან დამოუკიდებელი სხვა ნებისმიერი
+            მიზეზით, ბანკი არ არის პასუხისმგებელი დამდგარ შედეგზე.
+          </p>
+        </div>
+
+        <div class="regulation-section">
+          <h3 class="section-title">ინტელექტუალური საკუთრება</h3>
+
+          <p class="section-paragraph">
+            ვებ-გვერდზე, მის შინაარსზე, სტრუქტურასა და დიზაინზე სრულად ვრცელდება
+            სს „თიბისი ბანკის“ საავტორო უფლება. სს „თიბისი ბანკის“ ექსკლუზიური
+            უფლებები ვრცელდება ასევე ბანკის მიერ შექმნილ და რეგისტრირებულ
+            ინტელექტუალური საკუთრების ნებისმიერ ობიექტზე, მათ შორის მის კუთვნილ
+            სასაქონლო ნიშნებზე.
+          </p>
+
+          <p class="section-paragraph">
+            ბანკის საავტორო (©) და სხვა ინტელექტუალური საკუთრების უფლებები
+            ვრცელდება წინამდებარე ვებ-გვერდსა და მასზე არსებულ მთელ შინაარსზე
+            (პროდუქტებისა და მომსახურების ჩათვლით).
+          </p>
+
+          <p class="section-paragraph">
+            აკრძალულია წინამდებარე ვებ-გვერდზე მითითებული ნებისმიერი
+            ინფორმაციის/შინაარსის, მათ შორის ლოგო, პიქტოგრამა, გრაფიკა, სურათი,
+            გამოსახულება, პატენტი, მომსახურების/სასაქონლო ნიშნები, დიზაინი,
+            ბანკის მიერ შექმნილი ვიზუალური მედია და სხვა ინტელექტუალური
+            საკუთრების (რეგისტრირებული, ან არარეგისტრირებული) უნებართვო
+            გამოყენება, დამუშავება და გამოქვეყნება (მათ შორის სოციალურ მედიაში)
+            ბანკის წინასწარი წერილობითი თანხმობის გარეშე. ბანკის თანხმობა არ
+            არის საჭირო, თუ წინამდებარე მონაცემების გამოყენება ხორციელდება
+            არაკომერციული, პირადი მიზნებისთვის და იმ შემთხვევებში, როცა წინასწარ
+            თანხმობას არ ითვალიწინებს საქართველოს კანონმდებლობა, ან შესაბამისი
+            საერთაშორისო რეგულაცია.
+          </p>
+
+          <p class="section-paragraph">
+            ინტელექტუალური საკუთრების ვებ-გვერდზე მითითება არ ნიშნავს
+            მომხმარებლისათვის მის გამოყენებაზე ლიცენზიის მინიჭებას.
+            ვებ-გვერდიდან მომხმარებლის მიერ ნებისმიერი ინფორმაციის კომერციული
+            მიზნებისთვის გადმოწერა,ან ასლის დამზადება ჩაითვლება საქართველოს
+            კანონმდებლობის დარღვევად.
+          </p>
+
+          <p class="section-paragraph">
+            წესებსა და პირობებში მითითებული არცერთი დანაწესი არ განიჭებთ
+            უფლებას, ან ლიცენზიას წინამდებარე მუხლში ჩამოთვლილი ბანკის
+            ინტელექტუალური საკუთრების გამოყენებაზე.
+          </p>
+
+          <p class="section-paragraph">
+            იმ შემთხვევაში, თუ ვებ-გვერდი მომხმარებლებს ანიჭებს ჩატის,
+            ინტერაქციისა, თუ დიალოგის/დისკუსიის გამართვის შესაძლებლობას,
+            ვალდებულნი ხართ, წინამდებარე არხებში დააფიქსიროთ მხოლოდ ის
+            ინფორმაცია, რომელზეც ფლობთ ინტელექტუალურ საკუთრებას, ან გაქვთ
+            შესაბამისი პირის თანხმობა. ამასთან ერთად, ბანკს ანიჭებთ უფლებას
+            დაამუშაოს (მათ შორის, გამოაქვეყნოს) თქვენ მიერ დაფიქსირებული
+            ინფორმაცია კანონიერი, საკომუნიკაციო/საინფორმაციო მიზნებისათვის.
+          </p>
+
+          <p class="section-paragraph">
+            ბანკის ჯგუფის წევრი კომპანიები შესაძლოა იყენებდნენ ბანკის სასაქონლო
+            ნიშანს, დასახელებას და ლოგოტიპს, რომელიც წარმოადგენს ბანკის
+            საკუთრებას. ლაჟვარდის ფერი არის ბანკის კუთვნილი სასაქონლო ნიშნის
+            შემადგენელი ნაწილი, რომელიც რეგისტრირებულია დადგენილი წესით.
+          </p>
+
+          <p class="section-paragraph">
+            ბანკის ვებ-გვერდზე მითითებული კომპანიების სახელები, სასაქონლო
+            ნიშნები, ლოგოები ეკუთვნის შესაბამის პირებს.
+          </p>
+        </div>
+
+        <div class="regulation-section">
+          <h3 class="section-title">კონფიდენციალურობის დაცვა</h3>
+
+          <p class="section-paragraph">
+            სს „თიბისი ბანკი“ უზრუნველყოფს მისთვის მიწოდებულ კონფიდენციალური
+            ინფორმაციის მაქსიმალურ დაცულობას კანონმდებლობით დადგენილი წესით.
+          </p>
+
+          <p class="section-paragraph">
+            ბანკი მომხმარებლის პერსონალურ ინფორმაციას ითხოვს საჭიროებიდან
+            გამომდინარე, იმ მოცულობით, რაც საჭიროა ეფექტური მომსახურების
+            გასაწევად საქართველოს კანონმდებლობით დადგენილი წესით. მომხმარებელს
+            ნებისმიერ დროს შეუძლია მოითხოვოს ინფორმაცია ბანკისგან მისი
+            პერსონალური ინფორმაციის დამუშავების თაობაზე.
+          </p>
+
+          <p class="section-paragraph">
+            ვებ-გვერდზე თქვენი პერსონალური ინფორმაციის მითითებით, ბანკს ანიჭებთ
+            უფლებას, დაამუშავოს და მარკეტინგული მიზნებისთვის გამოიყენოს თქვენ
+            მიერ დაფიქსირებული ინფორმაცია.
+          </p>
+
+          <p class="section-paragraph">
+            ბანკის მხრიდან კონფიდენციალური ინფორმაციის გადაცემა ხორციელდება
+            თქვენი წინასწარი თანხმობით, ან კანონით გათვალისწინებულ სხვა
+            შემთხვევებში.
+          </p>
+
+          <p class="section-paragraph">
+            ბანკი მაქსიმალურად ზრუნავს თქვენი პირადი კონფიდენციალური ინფორმაციის
+            უსაფრთხოებასა და გაუმჟღავნებლობაზე, მაგრამ იმ ფაქტის
+            გათვალისწინებით, რომ თქვენი მონაცემების დისტანციურად მოწოდების
+            პროცესი არ არის დაშიფრული, ბანკი იხსნის პასუხისმგებლობას მესამე
+            პირების მიერ თქვენი მონაცემების არასანქცირებულ წვდომაზე ამ
+            მონაცემების ბანკისთვის მიწოდების დროს.
+          </p>
+
+          <p class="section-paragraph">
+            ბანკი მაქსიმალურად ზრუნავს თქვენი პირადი ინფორმაციის უსაფრთხოებასა
+            და კონფიდენციალურობაზე, თუმცა იხსნის პასუხისმგებლობას მესამე პირების
+            მიერ აღნიშნული ინფორმაციის არასანქცირებულ წვდომაზე ამ მონაცემების
+            ბანკისთვის მიწოდების დროს (მათ შორის დისტანციური მიწოდებისას
+            გამოყენებულ პლატფორმებზე?)
+          </p>
+
+          <p class="section-paragraph">
+            კონფიდენციალური ინფორმაციის ბანკისთვის მიწოდების დროს, მომხმარებელი
+            ვალდებულია, არ მოახდინოს ისეთი ავტომატური საშუალებების გამოყენება,
+            რამაც შესაძლოა საფრთხე შეუქმნას ბანკის უსაფრთხოებასა და დაცულობას.
+          </p>
+
+          <p class="section-paragraph">
+            ვებ-გვერდის სტუმრობისას, თქვენ მიერ დატოვებული ნებისმიერი
+            „ელექტრონული ნაკვალევი“, შესაძლოა გამოყენებულ იქნას ბანკისთვის
+            დამახასიათებელი ტექნიკური ოპერაციების განსახორციელებლად, სტატისტიკის
+            საწარმოებლად, ან საიტის ხარისხის გასაუმჯობესებლად.
+          </p>
+
+          <p class="section-paragraph">
+            ბანკის მიერ ადმინისტრაციული ფუნქციების ეფექტურად შესასრულებლად,
+            შესაძლოა თქვენ მიერ გამოგზავნილ იქნას პერსონალური მონაცემები ბანკის
+            ელექტრონულ ფოსტაზე. გაცნობებთ, რომ ბანკი არ არის პასუხისმგებელი,
+            გადაცემის პროცესში, მესამე პირის არასანქცირებული ჩარევის შედეგად,
+            აღნიშნული ინფორმაციის უკანონო მოპოვებაზე, ან იმ ინფორმაციაზე,
+            რომელიც მომხმარებელმა თავადვე გახადა საჯარო, ან გაავრცელა ნაკლებად
+            უსაფრთხო ელექტრონული საშუალებებით.
+          </p>
+
+          <p class="section-paragraph">
+            წინამდებარე წესებსა და პირობებზე დათანხმებით, მომხმარებელი
+            ადასტურებს ბანკისთვის მინიჭებულ უფლებას, ბანკი დაუკავშირდეს ან/და
+            გაუგზავნოს მომხმარებელს შეტყობინება (მათ შორის, ელექტრონული ფორმით:
+            მოკლე ტექსტური შეტყობინება, ელექტრონული ფოსტა) ვებ-გვერდზე
+            მითითებული პროდუქტისა, თუ მომსახურების თაობაზე.
+          </p>
+        </div>
+
+        <div class="regulation-section">
+          <h3 class="section-title">ვებ-გვერდზე მითითებული ბმულები</h3>
+
+          <p class="section-paragraph">
+            ბანკი უფლებამოსილია ვებ-გვერდზე მიუთითოს ჰიპერბმულები, მესამე პირის
+            მფლობელობაში არსებული ვებ-გვერდების ბმულები, თქვენივე
+            ინფორმირებულობის უზრუნველსაყოფად.
+          </p>
+
+          <p class="section-paragraph">
+            მესამე პირის მფლობელობაში არსებული ბმულები და მათზე მითითებული
+            ინფორმაცია, არ ექვემდებარება ბანკის კონტროლს, ხოლო მათზე მოცემული
+            პროდუქტებისა და შინაარსის სიზუსტე არ წარმოადგენს ბანკის
+            პასუხისმგებლობის საგანს. შესაბამისად, თქვენ ხართ პასუხისმგებელი
+            მესამე პირების რესურსებზე/ვებ-გვერდზე არსებული წესებისა და პირობების
+            გაცნობაზე.
+          </p>
+        </div>
+
+        <div class="regulation-section">
+          <h3 class="section-title">ცვლილების განხორციელება</h3>
+
+          <p class="section-paragraph">
+            ბანკი უფლებამოსილია ცვლილება შეიტანოს წინამდებარე წესებსა და
+            პირობებში მომხმარებელთათვის წინასწარი შეტყობინების გარეშე.
+          </p>
+
+          <p class="section-paragraph">
+            მომხმარებელი პასუხისმგებელია რეგულარულად გაეცნოს წინამდებარე წესებსა
+            და პირობებს. თქვენ მიერ ვებ-გვერდზე სტუმრობა/მითითებული ინფორმაციის
+            გამოყენება ავტომატურად ნიშნავს თქვენს დათანხმებას წინამდებარე
+            წესებისა და პირობების მოთხოვნებზე.
+          </p>
+        </div>
+
+        <div class="regulation-section">
+          <h3 class="section-title">მარეგულირებელი სამართალი და იურისდიქცია</h3>
+
+          <p class="section-paragraph">
+            წინამდებარე წესები და პირობები რეგულირდება საქართველოს
+            კანონმდებლობით.
+          </p>
+
+          <p class="section-paragraph">
+            დავის წარმოშობის შემთხვევაში, საქმეს განიხილავს საქართველოს საერთო
+            სასამართლოების სისტემა კანონმდებლობით დადგენილი წესით.
+          </p>
+
+          <p class="section-paragraph">
+            წინამდებარე დანაწესების კონკრეტული ჩანაწერის ბათილობა არ იწვევს
+            წესებისა და პირობების სხვა დათქმების ბათილობას.
+          </p>
+        </div>
+
+        <div class="regulation-section">
+          <h3 class="section-title">საკონტაქტო ინფორმაცია</h3>
+
+          <p class="section-paragraph">
+            ნებისმიერი კითხვის არსებობის შემთხვევაში, რაც უკავშირდება
+            წინამდებარე წესებსა და პირობებს და ვებ-გვერდზე მითითებულ
+            ინფორმაციას, გთხოვთ, მოგვმართოთ წერილობითი სახით მისამართზე:
+            თბილისიი, ატენის ქ. 2 ან მოგვწეროთ ელექტრონული ფოსტის საშუალებით:
+            <a href="mailto:itacademy@tbcbank.com.ge"
+              >itacademy@tbcbank.com.ge</a
+            >,
+          </p>
+
+          <p class="section-paragraph">
+            “სს „თიბისი ბანკის“ მომსახურებით სარგებლობისას მომხმარებელთა დაცვის,
+            კიბერუსაფრთოებისა და კონფიდენციალურობის დაცვის პრინციპები
+            ხელმისაწვდომია ვებ-გვერდზე
+            <a href="https://www.tbcbank.ge/web/ka" class="tbc-link"
+              >www.tbcbank.ge</a
+            >”
+          </p>
+        </div>
+      </div>
+      <button onclick="closeTermsPopup()" class="closeButton">დახურვა</button>
+    </div>
+
+    <!-- Import your JavaScript file here -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
