@@ -80,3 +80,11 @@
     ```
 
 2.  Alternatively, you can download a ZIP of all the files directly [here](https://github.com/GKutubidze/TBC-React-Course-2024/archive/main.zip).
+
+3. **Navigate to the Project Folder:**
+   - Locate the folder where you cloned or extracted the project.
+
+4. **Find the `index.html` File:**
+   - Inside the project folder, you'll find a file named `index.html`.
+
+5. **Open `index.html` with your Web Browser:**
