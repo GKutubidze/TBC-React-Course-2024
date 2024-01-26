@@ -2,6 +2,7 @@
 
 
 ## Project Structure
+```
  .
 ├── css
 │   └── styles.css
@@ -50,7 +51,7 @@
 └── README.md
 
 7 directories, 38 files
-
+```
 
 ## Technologies Used
   
