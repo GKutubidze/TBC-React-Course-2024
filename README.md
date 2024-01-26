@@ -55,9 +55,22 @@
 
 ## Technologies Used
   
-- HTM
-- CSS
-- JavaScript
+
+1. **HTML:**
+   - *Why:* HTML is the standard markup language for creating web pages. It provides the structure and skeleton for the content. In the TBC React Course project, HTML is used to define the structure of the web pages, ensuring proper organization of content.
+
+2. **CSS:**
+   - *Why:* CSS is used for styling and presentation. It allows you to define the layout, colors, and fonts of your web pages. In this project, CSS is utilized to enhance the visual appeal of the course website, making it more user-friendly and aesthetically pleasing.
+
+3. **JavaScript:**
+   - *Why:* JavaScript is a powerful scripting language that enables interactivity and dynamic behavior on web pages. In the TBC React Course project, JavaScript is used to implement client-side functionalities, handle user interactions, and enhance the overall user experience.
+
+4. **Git:**
+   - *Why:* Git is a version control system that helps track changes in your codebase. It allows collaboration among developers and helps manage code versions. In this project, Git is used to track changes, collaborate with others, and maintain a version history of the codebase.
+
+5. **GitHub:**
+   - *Why:* GitHub is a web-based platform that hosts Git repositories. It provides features like collaboration, issue tracking, and pull requests. In the TBC React Course project, GitHub is used as a remote repository to store and manage the project's code, making it accessible and manageable for collaboration.
+
 
 
 ## Instructions to Run the Code
