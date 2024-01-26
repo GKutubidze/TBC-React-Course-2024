@@ -1,5 +1,5 @@
-const SLIDE_INTERVAL = 3000;
-const ANIMATION_DURATION = 3000;
+const SLIDE_INTERVAL = 2500;
+const ANIMATION_DURATION = 2500;
 let currentSlide = 0; // Declare currentSlide here
 
 // Mobile Navbar
@@ -23,6 +23,9 @@ function showSlide(index) {
   currentSlide = index;
 
   updateDots();
+  // setTimeout(() => {
+  //   window.dispatchEvent(new Event("resize"));
+  // }, 10);
 }
 
 function nextSlide() {

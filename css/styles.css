@@ -832,6 +832,9 @@ body {
 .academy-mail{
   color: inherit;
 }
+.academy-mail:focus{
+  outline: none;
+}
 /*  End Footer Pop-up Styles */
 
 /* Desktop Footer */
