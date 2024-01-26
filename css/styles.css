@@ -297,6 +297,10 @@ body {
 /* End Programs Styles */
 
 @media (min-width: 768px) {
+  .learning-program {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
   #header{
     position: fixed;
     top:0;
@@ -319,7 +323,7 @@ body {
     min-height: 352px;
   }
   .learning-courses {
-    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .desktop-menu {
@@ -351,13 +355,21 @@ body {
   }
 }
 
-@media (min-width: 500px) and (max-width: 769px) {
+@media (min-width: 500px) and (max-width: 767px) {
   .learning-courses {
-    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .learning-program {
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
 
 @media (min-width: 1024px) {
+  .learning-program {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
   .content-wrapper {
     padding-left: 15%;
     padding-right: 15%;
